@@ -32,7 +32,7 @@ const GroceryDonateForm: React.FC = () => {
       <div className="con2">
         <div className="content">
           <div className="hed">
-            <h3 className="additems">Grocery Items</h3>
+            <h3 className="additems" style={{color:'black'}}>Grocery Items</h3>
             <button className="btb" id="addInputButton" onClick={handleAddItem}>
               Add Item +
             </button>
@@ -81,7 +81,7 @@ const GroceryDonateForm: React.FC = () => {
               ))}
             </div>
 
-            <h3 className="donate-to">Donate To:</h3>
+            <h3 className ="donate-to" style={{color:'black'}}>Donate From:</h3>
             <select name="orgname" id="org_sel" required>
               <option selected hidden value="">
                 Select Organization
@@ -89,12 +89,13 @@ const GroceryDonateForm: React.FC = () => {
               {/* Placeholder for organization options */}
             </select>
           </form>
-          <h3 className="contact">Contact:</h3>
-          {/* Placeholder for contact info */}
-          <h3 className="address-con">Address:</h3>
-          <div className="address">
-            {/* Placeholder for address */}
-          </div>
+          <div  className="contact-address-container">
+              <label className="contact-label">Contact:</label>
+              <input type="text" name="contact" placeholder="Enter your contact" className="input-field" required />
+
+              <label className="address-label">Address:</label>
+              <input type="text" name="address" placeholder="Enter your address" className="input-field" required />
+            </div>̥
           <div className="donate">
             <button type="submit" id="don_bt" form="foodform">
               Donate

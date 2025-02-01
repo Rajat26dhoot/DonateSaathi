@@ -22,7 +22,7 @@ body {
   height: auto;
   width: 600px;
   box-shadow: 0 0 5px gray;
-  background-color: white;
+  background-color: #ffe6e6;
   border-radius: 8px;
   padding: 30px;
   margin-bottom: 20px;
@@ -168,4 +168,25 @@ select {
   box-shadow: 1px 1px 5px gray;
   color: white;
   font-weight: bold;
+}
+.contact-address-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;  /* Adds space above */
+  margin-bottom: 20px; /* Adds space below */
+}
+
+.contact-label, .address-label {
+  color: black;
+  font-weight: bold;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
 }
