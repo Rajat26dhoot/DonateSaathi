@@ -1,0 +1,86 @@
+.container {
+  height: auto;
+}
+.container h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.his_list {
+  padding: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  margin-bottom: 15px;
+}
+.container .his_list p {
+  margin: 0;
+}
+.donated_div {
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.org_info {
+  text-align: center;
+  color: gray;
+}
+#status1 {
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 106, 106);
+  color: rgb(255, 126, 126);
+  background-color: rgba(255, 126, 126, 0.164);
+  font-weight: bold;
+}
+#status2 {
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid orange;
+  color: orange;
+  background-color: rgba(255, 166, 0, 0.135);
+  font-weight: bold;
+}
+#status3 {
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgb(33, 194, 44);
+  color: rgb(49, 174, 47);
+  background-color: rgba(49, 174, 47, 0.151);
+  font-weight: bold;
+}
+.one-items {
+  height: auto;
+  margin-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.one-item-one {
+  box-shadow: 1.3px 1.3px 3px gray;
+  padding: 0.5% 5%;
+  margin-right: 2%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.qty-label {
+  color: gray;
+}

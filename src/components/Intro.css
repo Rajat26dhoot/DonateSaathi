@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Gabarito", cursive;
+}
+.container1 {
+  background-image: url("https://blog.dlvrit.com/wp-content/uploads/thanksgiving-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  /* background-color: rgba(255, 0, 0, 0.5); */
+}
+.back_color {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding-left: 150px;
+}
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  margin-top: 100px;
+}
+.quote p,
+.intro p {
+  width: 800px;
+  text-align: center;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  margin-bottom: 10px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  height: 80px;
+}
+button {
+  height: 50px;
+  width: 200px;
+  margin: 30px;
+  font-size: medium;
+  background-color: gold;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px #484848;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(210, 179, 0);
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 0 8px #adadad;
+}
+#b1:hover,
+#b2:hover {
+  position: relative;
+  bottom: 1.2px;
+  right: 1.2px;
+}
+.container2,
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 455px;
+  width: 1000px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  width: 550px;
+  font-size: large;
+  text-align: center;
+}
+.image {
+  border-radius: 15px;
+  object-fit: cover;
+}
+hr {
+  width: 890px;
+  background-color: gray;
+}
+.footer {
+  background-color: #4a5d69;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+a {
+  color: black;
+}
+.p {
+  margin-top: 20px;
+}

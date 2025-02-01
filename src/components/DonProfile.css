@@ -1,0 +1,88 @@
+.con {
+  display: flex;
+  align-items: center;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+.container {
+  display: flex;
+}
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -120px;
+  margin-right: 80px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.form p {
+  font-size: larger;
+}
+#address {
+  padding: 10px;
+  border-radius: 20px;
+  width: 900px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.img button {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  border-width: 1px;
+  border-color: gray;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.btn span {
+  margin-left: 15px;
+}
+.container1 {
+  background-image: url("https://images.pling.com/img/00/00/63/36/11/1777559/blue-background-wave-glare-abstract-hd-wallpaper-wallpaper-1920x1080-10wallpaper.com.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+}
+.count {
+  height: 190px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.count p {
+  font-weight: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  font-size: 80px;
+  color: rgb(0, 189, 0);
+}
