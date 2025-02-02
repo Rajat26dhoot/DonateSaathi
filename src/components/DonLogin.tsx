@@ -55,7 +55,7 @@ const DonLogin: React.FC = () => {
         </p>
       </div>
 
-      <div className="org_button">
+      <div className="org_button5">
         <form action="/orglogin">
           <button>Organization Login</button>
         </form>
